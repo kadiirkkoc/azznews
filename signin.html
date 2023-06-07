@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign-in</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="jumbotron text-center" style="margin-bottom:0 ; padding: 1%;">
+        <a href="home.html">
+            <img class="logoimg" src="logo.jpg" alt="logo"></a> <br>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+
+        <a class="navbar-brand pb-2" href="home.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sport.html">SPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="travel.html">TRAVEL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="culture.html"> CULTURE </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> MORE </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="contact.html">CONTACT ME </a>
+                        </li>
+                        <li><a class="dropdown-item" href="about.html">ABOUT ME</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signin.html" style="color: #12013f;"> <b> SIGN IN</b> </a>
+                </li>
+                <li style="margin-top: .2%;" class="nav-item">
+                    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="get" name="searchform" target="_blank">
+                        <input class="form-control mr-sm-2" type="text" get placeholder="Search.." placeholder="Search" name="q" name="sitesearch" value=""> &nbsp;
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6"><iframe class="exchance" src="//www.exchangerates.org.uk/widget/ER-LRTICKER.php?w=600&s=2&mc=GBP&mbg=F0F0F0&bs=yes&bc =000044&f=verdana&fs=10px&fc=000044&lc=000044&lhc= FE9A00&vc=FE9A00&vcu=008000&vcd=FF0000& " width="100%" frameborder="0"
+                    scrolling="no" marginwidth="0%" marginheight="0%"></iframe></div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+
+
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form action="home.html">
+                    <article>
+                        <h2>Sign-in</h2>
+
+
+                        <div class="imgcontainer">
+                            <img src="logo.jpg" alt="Avatar" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                            <br>
+                            <a href="home.html"><button class="cancelbtn" style="font-size: 80%; width: 30%; background-color: #1abc9c;">Log in</button></a>
+                            <br>
+
+
+                            <label>
+                  You don't have account? <a href="register.html" style=" color: aquamarine;">Create new one</a> 
+                 </label>
+                        </div>
+
+                        <div class="container" style="background-color:#4575a5ce; height: auto;">
+                            <button type="submit" style="font-size: 80%;" class="cancelbtn">Cancel</button>
+
+                        </div>
+
+                    </article>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+    </div>
+    <br> <br>
+
+    <div class="jumbotron text-center " style="margin-bottom:0; padding: 0%; background-color: rgba(0, 0, 0, .6); ">
+        <p>© 2023 AZZ NEWS Company - All rights reserved.</p>
+    </div>
+
+</body>
+
+</html>
